@@ -1,0 +1,33 @@
+### Instructions for Running the Spectral Clustering Homework Code ###
+First of all, python is needed. If you do not have it installed you can download it from https://www.python.org/downloads/.
+
+Before running the code, make sure you have the necessary dependencies installed. The required modules for this project are:
+
+- numpy
+- matplotlib
+- scipy
+- sklearn
+- pandas
+- wordcloud
+  
+You can install these modules using `pip` by running the following command in your terminal or command prompt:
+
+```bash
+pip install numpy matplotlib scipy sklearn pandas wordcloud
+
+Install also the notebook interface:
+
+```bash
+pip install notebook
+
+The code is in the file 'Gosmar_Maretto_HWSVD' which is intended to be run in a Jupyter Notebook. To launch a Jupyter Notebook, navigate to the directory containing your notebook and datasets, then run:
+
+```bash
+jupyter notebook
+
+This will open a Jupyter interface in your browser. Choose the directory containing the project. 
+
+Make sure the following files are present in the working directory where the code is executed:
+
+Circle.csv
+Spiral.csv
