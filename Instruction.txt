@@ -1,4 +1,4 @@
-### Instructions for Running the Spectral Clustering Homework Code ###
+### Instructions for Running the Movie Recommendation System Homework Code ###
 First of all, python is needed. If you do not have it installed you can download it from https://www.python.org/downloads/.
 
 Before running the code, make sure you have the necessary dependencies installed. The required modules for this project are:
@@ -29,5 +29,5 @@ This will open a Jupyter interface in your browser. Choose the directory contain
 
 Make sure the following files are present in the working directory where the code is executed:
 
-Circle.csv
-Spiral.csv
+movies.csv
+ratings.csv
