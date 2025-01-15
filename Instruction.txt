@@ -20,7 +20,7 @@ Install also the notebook interface:
 ```bash
 pip install notebook
 
-The code is in the file 'Gosmar_Maretto_HWSVD' which is intended to be run in a Jupyter Notebook. To launch a Jupyter Notebook, navigate to the directory containing your notebook and datasets, then run:
+The code is in the file 'Gosmar_Maretto_HW_SVD' which is intended to be run in a Jupyter Notebook. To launch a Jupyter Notebook, navigate to the directory containing your notebook and datasets, then run:
 
 ```bash
 jupyter notebook
