@@ -105,7 +105,8 @@ To perform a prediction of the rating of a movie $y$ from a user $x$ the procedu
 3. We assign a similarity to each user with respect to $x$, in particular we use the *cosine similarity*
 $$cos(x,\={x}) = \frac{x\cdot \={x}}{||x||||\={x}||}$$ 
 4. We use a KNN (k-nearest neighbors) approach to predict the rating. We retrieve the top $k$ most similar users to $x$ from the similarity matrix and predict the new rating according to a weighted average:
-$$\text{weighted\_rating} = \frac{\sum (\text{similarities} \times \text{ratings})}{\sum \text{similarities}}$$
+
+$$\text{weightedRating} = \frac{\sum(\text{similarities} \times \text{ratings})}{\sum\text{similarities}}$$
 
 To evaluate the predictions $\={r}$ made by our model we compute the **RMSE** w.r.t. the actual ratings given by the users $r$ as:
 $$RMSE = \sqrt{\sum_{i=1}^n\frac{(\={r}-r)^2}{n}}$$
